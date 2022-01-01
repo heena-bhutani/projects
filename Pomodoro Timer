@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+
+    <title>
+    Pomodoro Timer
+    </title>
+    <head>
+        <link rel="stylesheet" href="design.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script type="text/javascript" src="pomodoro.js"></script>
+      </head>
+
+<body>
+
+    <div class="collection">    </div>
+
+
+
+
+        <h1>Pomodoro Timer</h1>
+
+
+
+
+
+            <!---displays the hours-->
+        <div id = "display">
+
+            <!---displays the minutes-->
+            <div class = "style">
+                <p class = "num" id = "minutes">25</p>
+                <p class = "word">minutes</p>
+            </div>
+
+            <!--displays the seconds-->
+            <div class = "style">
+                <p class = "num" id = "seconds">00</p>
+                <p class = "word">seconds</p>
+            </div>
+        </div>
+            
+
+            <br>
+            <br>
+            <br>
+            
+      
+            <div id = "styleButton">
+            <button class = "button" onclick="start()">START</button>
+            <button class = "button" onclick="stop()">STOP</button>
+            <button class = "button" onclick="reset()">RESET</button>
+            </div>
+
+</body>
+</html>
